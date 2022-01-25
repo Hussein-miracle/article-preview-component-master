@@ -1,0 +1,11 @@
+{
+  "name": "article-preview-component-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start-css": "tailwindcss -i ./src/style.css -o ./style.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

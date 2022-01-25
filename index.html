@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Article preview component</title>
+
+  <script defer src="./index.js"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-lGrayish  flex flex-col justify-center items-center    px-8 py-12   mob:px-12  mob:py-16       mob:text-small    " >
+  <div class="attribution  absolute bottom-[35px] left-[50%] sm:left-[50%] translate-x-[-50%]">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdullahi Hussein</a>.
+  </div>
+
+<div class="flex flex-col w-[80%]    overflow-hidden sm:overflow-visible sm:grid sm:grid-cols-5 bg-white rounded-[8px] sm:w-3/5 sm:h-3/4  w-[90%]  h-[100%]">
+
+  <div class="   sm:col-span-2  rounded-t ">
+
+    <img class="object-cover w-full h-full mob:rounded-l" src="./images/drawers.jpg" alt="Image of a drawer in an office"/>
+
+
+  </div>
+
+    <div class="sm:col-span-3  flex flex-[1,0,0.65] flex-col sm:px-5 sm:py-8 shade">
+          
+      <div class="flex flex-col px-5 pt-[25px]">
+        <h3 class="font-bold text-dGrayish text-[14px] sm:text-2xl ">
+          Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </h3>
+
+
+        <p class="text-[12px] sm:text-xl text-gBlue mt-4  sm:mb-3">
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+
+        </p>
+      </div>
+            
+
+        
+
+
+        <div class="mt-4 flex justify-between items-center  relative px-5 py-2">
+
+          
+            <div id="tool-tip" class="absolute  hidden sm:absolute  z-10 bottom-0 left-0   sm:bottom-[105px] sm:left-[43%]  bg-dGrayish w-full  h-full sm:h-[50px] sm:w-[260px] flex justify-around items-center share rounded-b text-white sm:rounded-[8px] ">
+              <div class="tip hidden sm:inline-block "></div>
+
+              <h3 class="font-light text-[16px] sm:text-xl text-gBlue uppercase ">Share</h3>
+  
+              <div class="flex justify-between items-center  flex-[0.5]">
+
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">
+                  <div class="w-7 h-7 "><svg class="w-6 h-6 fill-lGrayish"><use xlink:href="./src/icon/sprite2.svg#icon-facebook2"></use></svg></div>
+                </a>
+                
+  
+                <a href="https://twitter.com/home" target="_blank">
+                  <div class="w-7 h-7"><svg class="  w-full h-full fill-lGrayish"><use xlink:href="./src/icon/sprite2.svg#icon-twitter"></use></svg></div>
+                </a>
+                
+    
+                <a href="https://www.pinterest.com/" target="_blank">
+
+                  <div class="w-7 h-7"><svg class="w-6 h-6 fill-lGrayish"><use xlink:href="./src/icon/sprite2.svg#icon-pinterest1"></use></svg>
+                  </div>
+                </a>
+                
+
+
+              </div>
+  
+              
+  
+              <div class="rounded-[50%] w-7 h-7 bg-dDBlue sm:hidden flex flex-col justify-center items-center cursor-pointer" id="share_btn--close">
+                <svg class="w-4 h-4 fill-lGrayish"><use xlink:href="./src/icon/sprite.svg#icon-mail-forward"></use></svg>
+              </div>
+            </div>
+          
+          
+          
+          
+          <div class="flex items-center ">
+            <div class="mr-2">
+              <img src="./images/avatar-michelle.jpg" alt="avatar" class="rounded-[50%] h-14 w-14 object-cover">
+            </div>
+            <div class="flex flex-col  ">
+              
+
+              <h4 class="font-bold text-dDBlue text-[12px]   sm:text-[14px]">Michelle Appleton</h4>
+              <p class="text-gBlue text-[12px] sm:text-[13px]">28 Jun 2020</p>
+    
+            </div>
+
+            
+          </div>
+
+
+          
+
+
+            
+          
+
+        <div class="rounded-[50%] w-8 h-8 bg-lGrayish flex flex-col justify-center items-center cursor-pointer" id="share_btn">
+            <svg class="w-4 h-4 fill-dDBlue"><use xlink:href="./src/icon/sprite.svg#icon-mail-forward"></use></svg>
+          </div>
+
+
+      </div>
+
+
+
+  
+    </div>
+</div>
+
+
+</body>
+</html>
+  

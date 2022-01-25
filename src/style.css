@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .shade {
+      box-shadow: 8px 10px 8px hsla(212, 23%, 69%,.4);
+    }
+
+    .share{
+      position: relative;
+      background-color:hsl(214, 17%, 51%);
+    }
+
+    .fillSvg{
+        fill:hsl(210, 46%, 95%);
+    }
+
+    .tip{
+      position: absolute;
+      left:50%;
+      bottom:0%;
+      transform:translate(-50%,50%) rotate(45deg);
+      height:20px;
+      width:20px;
+      background-color:hsl(217, 19%, 35%);
+      -webkit-transform:translate(-50%,50%) rotate(45deg);
+      -moz-transform:translate(-50%,50%) rotate(45deg);
+      -ms-transform:translate(-50%,50%) rotate(45deg);
+      -o-transform:translate(-50%,50%) rotate(45deg);
+    }
+
+    .show{
+      display:inline-block;
+    }
+  }
